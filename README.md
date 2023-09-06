@@ -6,7 +6,7 @@
 
 `SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Um aplicativo movel para a avaliacao de filmes e series. Com isso as pessoas poderao alem de contribuir com suas proprias criticas para a comunidade visualizar as criticas de outros usuarios para poder decidir quais filmes ou series ele ira ver.
 
 ## Integrantes
 
