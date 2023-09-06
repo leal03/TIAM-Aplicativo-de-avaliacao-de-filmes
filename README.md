@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Vinicius Almeida de Avila
-* Nome completo do aluno 2
+* Rafael Gonçalves Leal
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
