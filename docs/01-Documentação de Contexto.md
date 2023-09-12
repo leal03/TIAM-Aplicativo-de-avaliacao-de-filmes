@@ -15,7 +15,7 @@ Com o crescente número de series e filmes sendo produzidos torna se cada vez ma
 
 ## Objetivos
 
-1. Simplificar a Seleção de Conteúdo: O principal objetivo é proporcionar aos usuários uma maneira simples e eficaz de escolher filmes e séries, reduzindo a sobrecarga de opções e fornecendo informações relevantes para ajudar na tomada de decisão.
+1 - Simplificar a Seleção de Conteúdo: O principal objetivo é proporcionar aos usuários uma maneira simples e eficaz de escolher filmes e séries, reduzindo a sobrecarga de opções e fornecendo informações relevantes para ajudar na tomada de decisão.
 
 2 - Facilitar a Descoberta de Conteúdo de Qualidade: A aplicação visa ajudar os espectadores a descobrir filmes e séries de alta qualidade que correspondam aos seus gostos individuais, através de recomendações personalizadas e avaliações de outros usuários.
 
