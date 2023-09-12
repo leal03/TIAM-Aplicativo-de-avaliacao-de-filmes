@@ -48,6 +48,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| Pesquisar filme ou série | ALTA |
 |RF-005| O usuario pode ocultar seu comentario se for um spoiler | ALTA |
 |RF-006| Avaliar filme ou série | ALTA |
+|RF-006| Logout da conta do usuário | ALTA |
 
 ### Requisitos não Funcionais
 
@@ -74,16 +75,44 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+![image](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/0e2f2e8e-8a48-4379-a5e4-7477ac7c0a61)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+1 - Cadastro de Usuários (CRUD)
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+O ator principal (Usuário registrado) pode se cadastrar, fornecendo informações como nome, e-mail e senha.
+O ator principal pode fazer login usando suas credenciais registradas.
+
+2 - Gerenciar Lista de Avaliados
+
+O ator principal pode adicionar um filme ou série à sua lista de avaliados.
+O ator principal pode remover um filme ou série da sua lista de avaliados.
+O ator principal pode visualizar sua lista de avaliados.
+
+3 - Gerenciar Lista de Assistir Futuramente
+
+O ator principal pode adicionar um filme ou série à sua lista de assistir futuramente.
+O ator principal pode remover um filme ou série da sua lista de assistir futuramente.
+O ator principal pode visualizar sua lista de assistir futuramente.
+
+4 - Pesquisar Filme ou Série
+
+o ator principal pode pesquisar filmes ou séries por título, gênero, atores, diretor, etc.
+Os resultados da pesquisa serão exibidos na tela.
+
+5 - Avaliar Filme ou Série
+
+O ator principal pode avaliar um filme ou série, dando uma classificação e escrevendo uma crítica.
+O ator principal pode ocultar sua crítica se ela contiver spoilers.
+O ator principal pode editar sua avaliação existente.
+
+6 - Visualizar Avaliações e Comentários
+
+O ator principal pode visualizar avaliações e comentários de outros usuários para um filme ou série específico.
+Os comentários marcados como spoilers serão ocultados por padrão, mas o usuário pode optar por revelá-los.
+
+7 - Logout
+
+O ator principal pode fazer logout da sua conta.
 
 # Matriz de Rastreabilidade
 

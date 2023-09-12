@@ -33,7 +33,7 @@ Nesse contexto, surge a necessidade premente de uma plataforma que resolva os pr
 
 ## Público-Alvo
 
-1. Amantes de Filmes e Séries: Este é o grupo principal de usuários, composto por indivíduos que têm paixão pelo entretenimento audiovisual. Eles dedicam tempo considerável assistindo a filmes e séries e estão em busca de maneiras mais eficazes de escolher o que assistir.
+1 - Amantes de Filmes e Séries: Este é o grupo principal de usuários, composto por indivíduos que têm paixão pelo entretenimento audiovisual. Eles dedicam tempo considerável assistindo a filmes e séries e estão em busca de maneiras mais eficazes de escolher o que assistir.
 
 2 - Consumidores de Streaming: Os assinantes de serviços de streaming, como Netflix, Amazon Prime, Disney+, entre outros, formam um grande segmento do público-alvo. Eles desejam aproveitar ao máximo sua assinatura e encontrar conteúdo que atenda aos seus gostos.
 
