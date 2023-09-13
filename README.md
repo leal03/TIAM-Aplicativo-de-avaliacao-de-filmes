@@ -12,7 +12,7 @@ Um aplicativo movel para a avaliacao de filmes e series. Com isso as pessoas pod
 
 * Vinicius Almeida de Avila
 * Rafael Gonçalves Leal
-* Nome completo do aluno 3
+* Artur Moreira De Carvalho
 * Nome completo do aluno 4
 
 ## Orientador
