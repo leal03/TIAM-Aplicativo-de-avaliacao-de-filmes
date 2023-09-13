@@ -72,7 +72,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-![image](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/0e2f2e8e-8a48-4379-a5e4-7477ac7c0a61)
+![image](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/9f207b69-b76c-4102-ae1b-307a81d673ad)
 
 1 - Cadastro de Usuários (CRUD)
 
