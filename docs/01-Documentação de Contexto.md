@@ -1,6 +1,6 @@
 # Introdução
 
-Com o crescente número de series e filmes sendo produzidos torna se cada vez mais dificil para o cidadao comum poder assistir conteudos relevantes e de qualidade. Dessa forma vimos nessa situacao a oportunidade de criar um aplicativo movel para a avaliacao de filmes e series. Com isso as pessoas poderao alem de contribuir com suas proprias criticas para a comunidade visualizar as criticas de outros usuarios para poder decidir quais filmes ou series ele ira ver.
+Com o crescente número de series e filmes sendo produzidos torna se cada vez mais dificil para o cidadao comum poder assistir conteudos relevantes e de qualidade. Dessa forma vimos nessa situacao a oportunidade de criar um aplicativo movel para a avaliacão de filmes e series. Com isso as pessoas poderão alem de contribuir com suas próprias críticas para a comunidade visualizar as críticas de outros usuarios para poder decidir quais filmes ou séries ele ira ver.
 
 ## Problema
 1 - Sobrecarga de conteúdo: Com o aumento constante na produção de filmes e séries, os espectadores muitas vezes se sentem sobrecarregados ao tentar escolher o que assistir. Eles enfrentam dificuldade em encontrar conteúdo relevante e de qualidade entre as vastas opções disponíveis.
