@@ -117,7 +117,7 @@ A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualizaç
 
 A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
 
-![Matriz de Rastreabilidade](matrizRastreabilidade.png)
+![Matriz de Rastreabilidade]([matrizRastreabilidade.png](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/blob/91d76296bc0f18d77030ab79284c7b7589359e7e/matrizRastreabilidade.png))
 
 > **Links Úteis**:
 > - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
