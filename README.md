@@ -14,6 +14,7 @@ Um aplicativo movel para a avaliacao de filmes e series. Com isso as pessoas pod
 * Rafael Gonçalves Leal
 * Artur Moreira De Carvalho
 * Lucas Bryan Silva Quintas
+* Pedro Souza Lucas
 
 ## Orientador
 
