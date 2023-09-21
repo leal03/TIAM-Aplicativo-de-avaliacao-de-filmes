@@ -43,10 +43,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| Cadastro de usuários/ CRUD | ALTA | 
-|RF-002| Adicionar filme na lista de avaliados | ALTA |
-|RF-003| Adicionar filme na lista de assistir futuramente | ALTA |
+|RF-002| Adicionar filme na lista de avaliados | MÉDIA |
+|RF-003| Adicionar filme na lista de assistir futuramente | MÉDIA |
 |RF-004| Pesquisar filme ou série | ALTA |
-|RF-005| O usuario pode ocultar seu comentario se for um spoiler | ALTA |
+|RF-005| O usuario pode ocultar seu comentario se for um spoiler | BAIXA |
 |RF-006| Avaliar filme ou série | ALTA |
 |RF-006| Logout da conta do usuário | ALTA |
 
