@@ -22,25 +22,17 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-- Logo do aplicativo
+# Logo
 ![logo-movie-review](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/78aef599-3cf8-4535-bf38-942ec77a3500)
 
 
-- Fav-icon do aplicativo
+# Icone fav-icon
 ![fav-icon-movie-review](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/2316f5e1-7192-4693-8091-6610092c0e52)
 
 
-- Tela de Login
+# Tela de Login
 ![telaLogin](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/7038acb3-76b5-415c-8998-b9be9a2f0345)
 
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
