@@ -21,8 +21,14 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 > - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
+* Logo do aplicativo
+![logo-movie-review](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/78aef599-3cf8-4535-bf38-942ec77a3500)
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+* Fav-icon do aplicativo
+![fav-icon-movie-review](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/2316f5e1-7192-4693-8091-6610092c0e52)
+
+* Tela de Login
+![telaLogin](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/7038acb3-76b5-415c-8998-b9be9a2f0345)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
