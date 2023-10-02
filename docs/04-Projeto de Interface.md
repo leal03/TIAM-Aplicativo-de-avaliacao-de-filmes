@@ -25,9 +25,23 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 # Logo
 ![logo-movie-review](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/78aef599-3cf8-4535-bf38-942ec77a3500)
 
+# Tela de Cadastro
+![TelaCadastro](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/224fc27a-d81e-4c7b-a8ff-8efa1ed148b7)
+
 # Tela de Login
 ![telaLogin](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/7038acb3-76b5-415c-8998-b9be9a2f0345)
 
+# Tela Inicial
+![Tela Inicial Movie Review](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/f0c4485c-5cf8-4296-8480-c0ab9beb4ed9)
+
+# Tela Do Perfil do Usuário
+![Tela Perfil Movie Review](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/faca7458-8557-4561-a9a2-89746e78799c)
+
+# Tela de Mídias Pesquisadas
+![Tela de Mídias Pesquisadas Movie Review](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/6df24e36-1b79-40cd-91c0-0b991d925d44)
+
+# Tela de apresentação das mídias
+![Tela De apresentação do Filme Movie Review](https://github.com/HaastZ/inside-botcha/assets/102103337/a0793de5-1132-43a6-a22c-7d019b35c4dc)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
