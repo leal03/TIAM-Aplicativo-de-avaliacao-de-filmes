@@ -32,13 +32,13 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 ![telaLogin](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/7038acb3-76b5-415c-8998-b9be9a2f0345)
 
 # Tela Inicial
-![Tela Inicial Movie Review](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/f0c4485c-5cf8-4296-8480-c0ab9beb4ed9)
+![Tela Inicial Movie Review](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/d562771f-e434-4a88-bf57-cb715fcb4770)
 
 # Tela Do Perfil do Usuário
 ![Tela Perfil Movie Review](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/faca7458-8557-4561-a9a2-89746e78799c)
 
 # Tela de Mídias Pesquisadas
-![Tela de Mídias Pesquisadas Movie Review](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/6df24e36-1b79-40cd-91c0-0b991d925d44)
+![Tela de Mídias Pesquisadas Movie Review](https://github.com/HaastZ/inside-botcha/assets/102103337/a6526617-a088-4e7d-beeb-f0a55185acc7)
 
 # Tela de apresentação das mídias
 ![Tela De apresentação do Filme Movie Review](https://github.com/HaastZ/inside-botcha/assets/102103337/a0793de5-1132-43a6-a22c-7d019b35c4dc)
