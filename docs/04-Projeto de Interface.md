@@ -44,7 +44,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 ![Tela De apresentação do Filme Movie Review](https://github.com/HaastZ/inside-botcha/assets/102103337/a0793de5-1132-43a6-a22c-7d019b35c4dc)
 
 #Interação dos Wireframes
-![Canvas Representando Interações dos Wireframes e Navegação do Site] (docs/img/wireframes.png)
+![Canvas Representando Interações dos Wireframes e Navegação do Site](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/blob/2dfdfe3009a4e7e2a290d691ef7d8131affd2433/docs/img/wireframes.png)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
