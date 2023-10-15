@@ -30,7 +30,7 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
 
 > - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
-![image](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/103788873/530f0cdd-2e74-403c-84a1-d83673c74a3c)
+![image]([https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/103788873/530f0cdd-2e74-403c-84a1-d83673c74a3c](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/blob/master/docs/img/Esquema%20Relacional%20-%20Filmes.jpeg))
 
 ## Modelo Físico
 
