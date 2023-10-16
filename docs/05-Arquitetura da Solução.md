@@ -12,6 +12,8 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
 
+![Diagrama1](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/103788873/6a9f021f-30dc-4f66-b8ae-573a53d3f60c)
+
 > - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
 > - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 
