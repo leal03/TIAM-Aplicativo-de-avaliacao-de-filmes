@@ -19,6 +19,5 @@ export default function App() {
         <Stack.Screen name="MidiaPesquisada" component={MidiaPesquisada} />
       </Stack.Navigator>
     </NavigationContainer>
-    //aaaaaa
   );
 }
