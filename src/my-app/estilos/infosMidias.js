@@ -30,7 +30,7 @@ export default StyleSheet.create({
         height: 300
     },
     TxTNome: {
-        marginTop: 5,
+        marginTop: 10,
         display: 'flex',
         justifyContent: 'center',
         color: 'white'
