@@ -54,6 +54,10 @@ export default function MidiaPesquisada() {
       navigation.navigate('PaginaPrincipal')
   }
 
+  const handleMidias = () => {
+      navigation.navigate('InfosMidias')
+  }
+
   return (
     <ScrollView>
       <View style={estilos.container}>
@@ -85,7 +89,7 @@ export default function MidiaPesquisada() {
                     <Text style={estilos.texto}>{serie.name}</Text>
                     <Text style={estilos.texto}>Tipo: Série</Text>
                     <Text style={estilos.texto}>Nota: {serie.vote_average.toFixed(1)}</Text>
-                    <TouchableOpacity style={estilos.botao}>
+                    <TouchableOpacity onPress={handleMidias} style={estilos.botao}>
                       <Text style={estilos.textoInfo}>Mais Informações</Text>
                     </TouchableOpacity>
                   </View>
@@ -105,7 +109,7 @@ export default function MidiaPesquisada() {
                     <Text style={estilos.texto}>{filme.title}</Text>
                     <Text style={estilos.texto}>Tipo: Filme</Text>
                     <Text style={estilos.texto}>Nota: {filme.vote_average.toFixed(2)}</Text>
-                    <TouchableOpacity style={estilos.botao}>
+                    <TouchableOpacity onPress={handleMidias} style={estilos.botao}>
                       <Text style={estilos.textoInfo}>Mais Informações</Text>
                     </TouchableOpacity>
                   </View>

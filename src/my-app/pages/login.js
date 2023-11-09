@@ -2,7 +2,7 @@ import { Text, View, Image, TouchableOpacity, TextInput } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 import estilos from '../estilos/login'
-export default function cadastro() {
+export default function Login() {
 
     const navigation = useNavigation();
 
