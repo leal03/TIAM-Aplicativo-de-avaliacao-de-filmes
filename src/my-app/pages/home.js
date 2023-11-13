@@ -70,6 +70,17 @@ export default function Home() {
     navigation.navigate('MidiaPesquisada', { pesquisado: searchText });
   };
 
+  const handleInfosMidias = (midia) => {
+      navigation.navigate('InfosMidias', {
+      categoria: midia.genres ? midia.genres.map(genre => genre.name).join(', ') : '',
+      imagem: `https://image.tmdb.org/t/p/w500${midia.poster_path}`,
+      nome: midia.title || midia.name,
+      sinopse: midia.overview,
+      nota: midia.vote_average.toFixed(1),
+    });
+  };
+  
+
   return (
     <ScrollView>
       <View style={estilos.container}>
@@ -101,12 +112,14 @@ export default function Home() {
             {topRatedMovies.map((movie) => (
               <View key={movie.id} style={estilos.containerPequeno}>
                 <View>
+                <TouchableOpacity onPress={() => handleInfosMidias(movie)}>
                     <Image
                     style={estilos.imgPequena}
                     source={{
                         uri: `https://image.tmdb.org/t/p/w500${movie.poster_path}`,
                         }}
                         />
+                  </TouchableOpacity>
                     <Text style={estilos.txtNomeDoFilme}>{movie.title}</Text>
                 </View>
               </View>
@@ -119,12 +132,14 @@ export default function Home() {
             {topRatedSeries.map((serie) => (
               <View key={serie.id} style={estilos.containerPequeno}>
                 <View>
+                <TouchableOpacity onPress={() => handleInfosMidias(serie)}>
                     <Image
                     style={estilos.imgPequena}
                     source={{
                         uri: `https://image.tmdb.org/t/p/w500${serie.poster_path}`,
                         }}
                         />
+                  </TouchableOpacity>
                     <Text style={estilos.txtNomeDoFilme}>{serie.name}</Text>
                 </View>
               </View>
