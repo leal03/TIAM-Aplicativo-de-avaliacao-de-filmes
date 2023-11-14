@@ -54,9 +54,15 @@ export default function MidiaPesquisada() {
       navigation.navigate('PaginaPrincipal')
   }
 
-  const handleMidias = () => {
-      navigation.navigate('InfosMidias')
-  }
+  const handleMaisInformacoes = (midia) => {
+    navigation.navigate('InfosMidias', {
+      categoria: midia.media_type === 'movie' ? 'Filme' : 'Série',
+      imagem: `${img_url}${midia.backdrop_path}`,
+      nome: midia.title || midia.name,
+      sinopse: midia.overview,
+      nota: midia.vote_average.toFixed(1),
+    });
+  };
 
   return (
     <ScrollView>
@@ -89,7 +95,10 @@ export default function MidiaPesquisada() {
                     <Text style={estilos.texto}>{serie.name}</Text>
                     <Text style={estilos.texto}>Tipo: Série</Text>
                     <Text style={estilos.texto}>Nota: {serie.vote_average.toFixed(1)}</Text>
-                    <TouchableOpacity onPress={handleMidias} style={estilos.botao}>
+                    <TouchableOpacity
+                      onPress={() => handleMaisInformacoes(serie)} // Chame a função com a mídia como argumento
+                      style={estilos.botao}
+                    >
                       <Text style={estilos.textoInfo}>Mais Informações</Text>
                     </TouchableOpacity>
                   </View>
@@ -109,7 +118,10 @@ export default function MidiaPesquisada() {
                     <Text style={estilos.texto}>{filme.title}</Text>
                     <Text style={estilos.texto}>Tipo: Filme</Text>
                     <Text style={estilos.texto}>Nota: {filme.vote_average.toFixed(2)}</Text>
-                    <TouchableOpacity onPress={handleMidias} style={estilos.botao}>
+                    <TouchableOpacity
+                      onPress={() => handleMaisInformacoes(filme)} // Chame a função com a mídia como argumento
+                      style={estilos.botao}
+                    >
                       <Text style={estilos.textoInfo}>Mais Informações</Text>
                     </TouchableOpacity>
                   </View>
