@@ -70,5 +70,4 @@ export default StyleSheet.create({
         justifyContent: 'center',
         color: 'white'
     }
-
 })

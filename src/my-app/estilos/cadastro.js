@@ -17,7 +17,8 @@ export default StyleSheet.create({
         justifyContent: 'center',
     },
     Imagem: {
-        width: 400
+        width: 250,
+        height: 250
     },
     inputs: {
         display: 'flex',

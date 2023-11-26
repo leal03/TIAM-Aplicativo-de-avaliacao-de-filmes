@@ -70,6 +70,10 @@ export default function Home() {
     navigation.navigate('MidiaPesquisada', { pesquisado: searchText });
   };
 
+  const handlePerfil = () => {
+    navigation.navigate('PerfilUsuario')
+  }
+
   const handleInfosMidias = (midia) => {
       navigation.navigate('InfosMidias', {
       categoria: midia.genres ? midia.genres.map(genre => genre.name).join(', ') : '',
@@ -92,7 +96,9 @@ export default function Home() {
                     <Image style={estilos.lupa} source={require('../assets/lupa.png')} />
                 </TouchableOpacity>
               </View>
-          <Image style={estilos.iconPerfil} source={require('../assets/imagePerfil.png')} />
+              <TouchableOpacity onPress={handlePerfil}>
+                <Image style={estilos.iconPerfil} source={require('../assets/imagePerfil.png')} />
+              </TouchableOpacity>
         </View>
         <View style={estilos.imagemGrande}>
           {topRatedMovies.length > 0 && (
