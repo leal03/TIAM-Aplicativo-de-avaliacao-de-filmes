@@ -7,7 +7,8 @@ import estilos from '../estilos/home';
 
 const API_KEY = 'a7c8f3e436b89729fc0f9d797ee42c55';
 
-export default function Home() {
+export default function Home({ route }) {
+  const { userId } = route.params;
   const [topRatedMovies, setTopRatedMovies] = useState([]);
   const [topRatedSeries, setTopRatedSeries] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -71,7 +72,7 @@ export default function Home() {
   };
 
   const handlePerfil = () => {
-    navigation.navigate('PerfilUsuario')
+    navigation.navigate('PerfilUsuario', { userId })
   }
 
   const handleInfosMidias = (midia) => {
