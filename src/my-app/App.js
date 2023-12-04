@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import { createTableUsuarios, db } from './bd/banco';
 
 import Cadastro from './pages/cadastro';
 import Login from './pages/login';
@@ -9,20 +10,25 @@ import MidiaPesquisada from './pages/midiaPesquisada';
 import InfosMidias from './pages/infosMidia';
 import PerfilUsuario from './pages/perfilDoUsuario';
 
-// const Stack = createStackNavigator();
+
+const Stack = createStackNavigator();
 
 export default function App() {
+  useEffect(() => {
+    // Chamando a função createTableUsuarios assim que o componente for montado
+    createTableUsuarios();
+  }, []);
+
   return (
-    <PerfilUsuario />
-    // <NavigationContainer>
-    //   <Stack.Navigator initialRouteName="Cadastro">
-    //     <Stack.Screen name="Cadastro" component={Cadastro} />
-    //     <Stack.Screen name="Login" component={Login} />
-    //     <Stack.Screen name="PaginaPrincipal" component={PaginaPrincipal} />
-    //     <Stack.Screen name="MidiaPesquisada" component={MidiaPesquisada} />
-    //     <Stack.Screen name="InfosMidias" component={InfosMidias} />
-    //     <Stack.Screen name="PerfilUsuario" component={PerfilUsuario} />
-    //   </Stack.Navigator>
-    // </NavigationContainer>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Cadastro">
+        <Stack.Screen name="Cadastro" component={Cadastro} />
+        <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="PaginaPrincipal" component={PaginaPrincipal} />
+        <Stack.Screen name="MidiaPesquisada" component={MidiaPesquisada} />
+        <Stack.Screen name="InfosMidias" component={InfosMidias} />
+        <Stack.Screen name="PerfilUsuario" component={PerfilUsuario} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }

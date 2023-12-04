@@ -55,5 +55,11 @@ export default StyleSheet.create({
         height: 60,
         borderRadius: 50,
         backgroundColor: '#002c84'
+    },
+    TxT1: {
+        color: 'white'
+    },
+    TxT2: {
+        color: '#d0d1f2'
     }
 })

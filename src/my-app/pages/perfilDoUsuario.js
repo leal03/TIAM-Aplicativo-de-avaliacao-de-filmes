@@ -1,14 +1,26 @@
 import { View, Text, Image, ScrollView, TouchableOpacity } from "react-native";
+import { useNavigation } from '@react-navigation/native';
 
 import estilos from '../estilos/perfilDoUsuario'
 import Footer from '../components/footer'
 
-export default function perfilDoUsuario() {
+export default function PerfilDoUsuario() {
+    const navigation = useNavigation();
+
+    const loggout = () => {
+        navigation.navigate('Login')
+    }
+
+    const paginaPrincipal = () => {
+        navigation.navigate('PaginaPrincipal')
+    }
     return(
         <ScrollView>
             <View style={estilos.container}>
                 <View style={estilos.containerLogo}>
-                    <Image style={estilos.img} source={require('../assets/logo.png')} />
+                    <TouchableOpacity onPress={paginaPrincipal}>
+                        <Image style={estilos.img} source={require('../assets/logo.png')} />
+                    </TouchableOpacity>
                 </View>
                 <View style={estilos.containerImgPerfil}>
                     <Image style={estilos.imgPerfil} source={require('../assets/imagePerfil.png')} />
@@ -70,7 +82,7 @@ export default function perfilDoUsuario() {
                         </View>
                     </ScrollView>
                 <View style={estilos.containerBotao}>
-                    <TouchableOpacity style={estilos.botao}>
+                    <TouchableOpacity onPress={loggout} style={estilos.botao}>
                         <Text style={estilos.TxT}>Sair da Conta</Text>
                     </TouchableOpacity>
                 </View>
