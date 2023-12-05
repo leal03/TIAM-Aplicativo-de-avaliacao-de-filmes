@@ -15,7 +15,7 @@ export default function Login() {
   const handleLogin = () => {
     const { email, senha } = formData;
     console.log('Tentativa de login - email:', email);
-    console.log('Tentativa de login - email: ', senha);
+    console.log('Tentativa de login - senha: ', senha);
     
     // Valide os dados do formulário
     if (!email || !senha) {

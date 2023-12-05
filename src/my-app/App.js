@@ -14,11 +14,6 @@ import PerfilUsuario from './pages/perfilDoUsuario';
 const Stack = createStackNavigator();
 
 export default function App() {
-  useEffect(() => {
-    // Chamando a função createTableUsuarios assim que o componente for montado
-    createTableUsuarios();
-  }, []);
-
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Cadastro">

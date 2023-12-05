@@ -57,7 +57,8 @@ export default StyleSheet.create({
     containerBotao: {
         marginTop: 10,
         display: 'flex',    
-        justifyContent: 'flex-end',
+        justifyContent: 'center',
+        alignItems: 'center',
         alignItems: 'flex-end'
     },
     botao: {

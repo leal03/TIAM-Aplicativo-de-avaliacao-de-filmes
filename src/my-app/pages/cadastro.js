@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Text, View, Image, TouchableOpacity, TextInput, Alert } from 'react-native'; // Adicionei o Alert para mostrar mensagens de erro
 import { useNavigation } from '@react-navigation/native';
-import { db, createTableUsuarios } from '../bd/banco';  // Substitua pelo caminho correto
+import { db, createTableUsuarios, createTableAvaliados } from '../bd/banco';  // Substitua pelo caminho correto
 
 import estilos from '../estilos/cadastro'
 
@@ -16,7 +16,7 @@ export default function Cadastro() {
     // Chame a função de criação de tabela no início do componente
     React.useEffect(() => {
       createTableUsuarios();
-    }, []); 
+    }, []);
 
     const handleCadastro = () => {
       console.log('Tentativa de cadastro:', formData);

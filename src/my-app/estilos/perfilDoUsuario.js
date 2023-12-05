@@ -33,7 +33,7 @@ export default StyleSheet.create({
     },
     TxT: {
         color: 'white',
-        fontSize: 15
+        fontSize: 12
     },
     main: {
         color: 'white',
@@ -68,5 +68,8 @@ export default StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 50
+    },
+    X: {
+        color: 'red'
     }
 })

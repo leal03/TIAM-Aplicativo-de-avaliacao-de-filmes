@@ -1,24 +1,64 @@
 import React, { useState } from "react";
-import { View, Text, Image, ScrollView, TextInput, TouchableOpacity } from "react-native";
+import { View, Text, Image, ScrollView, TextInput, TouchableOpacity, Alert } from "react-native";
 import { useNavigation } from '@react-navigation/native';
+import { db } from '../bd/banco';  // Importe o arquivo onde você definiu 'db'
 
 import estilos from '../estilos/infosMidias';
 import Footer from '../components/footer';
 
 export default function InfosMidia({ route }) {
-  const { categoria, imagem, nome, sinopse, nota } = route.params;
-
+  const { categoria, imagem, nome, sinopse, nota, userId } = route.params;
   const navigation = useNavigation();
   const [notaUsuario, setNotaUsuario] = useState('');
 
   const handleHome = () => {
-    navigation.navigate('PaginaPrincipal');
+    navigation.navigate('PaginaPrincipal', { userId });
   }
 
-  const handleEnviarNota = () => {
+  const handleEnviarNota = async () => {
+    // Certifique-se de que tem o ID do usuário disponível
+    if (!userId) {
+      console.error('ID do usuário não disponível.');
+      return;
+    }
+
+    // Converta a imagem para base64 (como você já fez antes)
+    const imagemBase64 = await imagemParaBase64(imagem);
+
+    // Adicione os dados à tabela "avaliados"
+    db.transaction((tx) => {
+      tx.executeSql(
+        'INSERT INTO avaliados (nome, imagem, usuario_id) VALUES (?, ?, ?)',
+        [nome, imagemBase64, userId],
+        (_, result) => {
+          console.log('Dados adicionados com sucesso!');
+          // Adicione lógica adicional aqui, se necessário
+        },
+        (error) => {
+          console.error('Erro ao adicionar dados: ', error);
+        }
+      );
+    });
+
     // Adicione lógica para enviar a nota do usuário
+    if(!notaUsuario) {
+      Alert.alert('Favor!', 'Adicione uma nota de 0 a 10.');
+    }
     console.log('Nota enviada:', notaUsuario);
   }
+
+  // Função para converter a imagem para base64
+  const imagemParaBase64 = async (url) => {
+    const response = await fetch(url);
+    const blob = await response.blob();
+
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onloadend = () => resolve(reader.result);
+      reader.onerror = reject;
+      reader.readAsDataURL(blob);
+    });
+  };
 
   return (
     <ScrollView>
