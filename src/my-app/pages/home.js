@@ -68,7 +68,7 @@ export default function Home({ route }) {
   }, [topRatedMovies, currentImageIndex]);
 
   const handleSearch = () => {
-    navigation.navigate('MidiaPesquisada', { pesquisado: searchText });
+    navigation.navigate('MidiaPesquisada', { pesquisado: searchText, userId });
   };
 
   const handlePerfil = () => {

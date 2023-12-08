@@ -42,8 +42,8 @@ export default StyleSheet.create({
         gap: 20
     },
     imgPequena: {
-        width: 100,
-        height: 150
+        width: 150,
+        height: 200
     },
     infos: {
         display: 'flex',

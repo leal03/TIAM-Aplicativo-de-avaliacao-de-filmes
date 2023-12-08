@@ -128,7 +128,7 @@ export default function PerfilDoUsuario({ route }) {
               ))}
             </View>
           </ScrollView>
-          <Text style={estilos.TxT}>Assistir Futuramente</Text>
+          {/* <Text style={estilos.TxT}>Assistir Futuramente</Text>
                     <ScrollView horizontal={true}>
                         <View style={estilos.containerInfos}>
                             <View style={estilos.infos}>
@@ -152,7 +152,7 @@ export default function PerfilDoUsuario({ route }) {
                                 <Text style={estilos.TxT}>Nome</Text>
                             </View>
                         </View>
-                    </ScrollView>
+                    </ScrollView> */}
                 <View style={estilos.containerBotao}>
                     <TouchableOpacity onPress={loggout} style={estilos.botao}>
                         <Text style={estilos.TxT}>Sair da Conta</Text>

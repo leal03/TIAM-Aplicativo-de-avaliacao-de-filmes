@@ -17,7 +17,7 @@ export default function MidiaPesquisada() {
   const navigation = useNavigation();
   const route = useRoute();
   const parametroPesquisado = route.params.pesquisado;
-
+  const userId = route.params.userId;
   useEffect(() => {
     if (parametroPesquisado) {
       setPesquisado(parametroPesquisado);
@@ -51,7 +51,7 @@ export default function MidiaPesquisada() {
   };
 
   const handleHome = () => {
-      navigation.navigate('PaginaPrincipal')
+      navigation.navigate('PaginaPrincipal', { userId })
   }
 
   const handleMaisInformacoes = (midia) => {
