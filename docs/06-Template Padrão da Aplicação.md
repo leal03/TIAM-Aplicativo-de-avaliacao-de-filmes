@@ -4,9 +4,10 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+# Logo
+![logo-movie-review](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/78aef599-3cf8-4535-bf38-942ec77a3500)
+
+# Tela de Cadastro
+![TelaCadastro](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/102103337/224fc27a-d81e-4c7b-a8ff-8efa1ed148b7)
+
+* Essas são as cores padrão do aplicativo

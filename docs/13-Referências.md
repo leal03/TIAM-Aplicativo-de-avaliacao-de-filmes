@@ -1,7 +1,5 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+A referência foi um projeto de um clone da netflix que eu ( vinicius ) fiz, utilizando a api do The Movie DB
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+https://github.com/HaastZ/Webflix-2.0

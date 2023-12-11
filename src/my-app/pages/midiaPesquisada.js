@@ -61,6 +61,7 @@ export default function MidiaPesquisada() {
       nome: midia.title || midia.name,
       sinopse: midia.overview,
       nota: midia.vote_average.toFixed(1),
+      userId: userId,
     });
   };
 
