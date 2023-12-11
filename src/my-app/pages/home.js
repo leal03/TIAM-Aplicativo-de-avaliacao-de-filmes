@@ -20,10 +20,10 @@ export default function Home({ route }) {
     async function fetchTopRatedData() {
       try {
         const movieResponse = await fetch(
-          `https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}&language=en-US&page=1`
+          `https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}&language=pt-BR-US&page=1`
         );
         const seriesResponse = await fetch(
-          `https://api.themoviedb.org/3/tv/top_rated?api_key=${API_KEY}&language=en-US&page=1`
+          `https://api.themoviedb.org/3/tv/top_rated?api_key=${API_KEY}&language=pt-BR-US&page=1`
         );
 
         if (movieResponse.ok && seriesResponse.ok) {

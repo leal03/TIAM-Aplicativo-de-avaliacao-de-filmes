@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, Image, ScrollView, TextInput, TouchableOpacity, Alert } from "react-native";
 import { useNavigation } from '@react-navigation/native';
-import { db } from '../bd/banco';  // Importe o arquivo onde você definiu 'db'
+import { db } from '../bd/banco';
 
 import estilos from '../estilos/infosMidias';
 import Footer from '../components/footer';
