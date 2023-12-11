@@ -19,6 +19,10 @@ O objetivo do teste é ver se as funcionalidades do aplicativo que estabelecemos
 
 ![image](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/103788873/79785426-56af-44fa-b40a-f96e9c36e3a7)
 
+![image](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/103788873/db4c2c32-3a82-4a8f-b201-6afac010fa3a)
+
+![image](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/103788873/337cd685-0b5b-4418-a285-f74a0e88d286)
+
 # Busca de Filmes e Séries:
 
 ![image](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/103788873/cc1ddc73-a74d-4f11-8ea5-c95c29571303)
@@ -31,13 +35,12 @@ Será mostrado no vídeo de apresentação do aplicativo.
 
 ![image](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/103788873/7b99ddcd-4245-4215-baa6-0e182f029406)
 
-![WhatsApp Image 2023-12-08 at 14 47 22 (1)](https://github.com/HaastZ/meu-portfolio/assets/102103337/434bf4ef-6e23-4cb3-9127-60ee6a4957fe)
+![image](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/103788873/4ad10953-9164-48a9-b5ac-bff4826ebbcc)
 
-![WhatsApp Image 2023-12-08 at 14 47 22 (2)](https://github.com/HaastZ/meu-portfolio/assets/102103337/2b542266-de5b-496d-976b-a946c5965b23)
+![image](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/103788873/79785426-56af-44fa-b40a-f96e9c36e3a7)
 
-![WhatsApp Image 2023-12-08 at 14 47 21 (1)](https://github.com/HaastZ/meu-portfolio/assets/102103337/329d4998-34ed-4451-8989-98f5c6a8725c)
+![image](https://github.com/leal03/TIAM-Aplicativo-de-avaliacao-de-filmes/assets/103788873/0c7c5636-f910-4f21-a7e8-7a6afa88ae28)
 
-![WhatsApp Image 2023-12-08 at 14 47 21 (2)](https://github.com/HaastZ/meu-portfolio/assets/102103337/80311199-6d80-4353-8172-f6e8caeeab97)
 
 # Integração com API (Dados)
 
