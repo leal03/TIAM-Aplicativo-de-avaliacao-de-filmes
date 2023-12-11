@@ -2,11 +2,11 @@
 
 Testes Realizados:
 
-Login e Cadastro de Usuários
-Busca de Filmes e Séries
-Facilidade de Navegação
-Design e Layout
-Integração com API (Dados)
+* Login e Cadastro de Usuários
+* Busca de Filmes e Séries
+* Facilidade de Navegação
+* Design e Layout
+* Integração com API (Dados)
 
 
 Contexto do Teste:
