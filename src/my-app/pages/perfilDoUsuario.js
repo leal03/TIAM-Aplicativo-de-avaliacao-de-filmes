@@ -128,31 +128,6 @@ export default function PerfilDoUsuario({ route }) {
               ))}
             </View>
           </ScrollView>
-          {/* <Text style={estilos.TxT}>Assistir Futuramente</Text>
-                    <ScrollView horizontal={true}>
-                        <View style={estilos.containerInfos}>
-                            <View style={estilos.infos}>
-                                <Image style={estilos.imgPequena} source={require('../assets/terra.jpg')} />
-                                <Text style={estilos.TxT}>Nome</Text>
-                            </View>
-                            <View style={estilos.infos}>
-                                <Image style={estilos.imgPequena} source={require('../assets/terra.jpg')} />
-                                <Text style={estilos.TxT}>Nome</Text>
-                            </View>
-                            <View style={estilos.infos}>
-                                <Image style={estilos.imgPequena} source={require('../assets/terra.jpg')} />
-                                <Text style={estilos.TxT}>Nome</Text>
-                            </View>
-                            <View style={estilos.infos}>
-                                <Image style={estilos.imgPequena} source={require('../assets/terra.jpg')} />
-                                <Text style={estilos.TxT}>Nome</Text>
-                            </View>
-                            <View style={estilos.infos}>
-                                <Image style={estilos.imgPequena} source={require('../assets/terra.jpg')} />
-                                <Text style={estilos.TxT}>Nome</Text>
-                            </View>
-                        </View>
-                    </ScrollView> */}
                 <View style={estilos.containerBotao}>
                     <TouchableOpacity onPress={loggout} style={estilos.botao}>
                         <Text style={estilos.TxT}>Sair da Conta</Text>

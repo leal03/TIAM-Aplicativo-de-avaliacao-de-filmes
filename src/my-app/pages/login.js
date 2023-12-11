@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Text, View, Image, TouchableOpacity, TextInput, Alert } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { db } from '../bd/banco';  // Substitua pelo caminho correto
+import { db } from '../bd/banco'; 
 
 import estilos from '../estilos/login';
 
@@ -17,13 +17,13 @@ export default function Login() {
     console.log('Tentativa de login - email:', email);
     console.log('Tentativa de login - senha: ', senha);
     
-    // Valide os dados do formulário
+    // Valida os dados do formulário
     if (!email || !senha) {
       Alert.alert('Erro!', 'Preencha todos os campos.');
       return;
     }
 
-    // Realize a autenticação no banco de dados
+    // Realiza a autenticação no banco de dados
     db.transaction((tx) => {
       tx.executeSql(
         'SELECT id FROM usuarios WHERE email = ? AND senha = ?',
