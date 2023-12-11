@@ -96,7 +96,7 @@ export default function MidiaPesquisada() {
                     <Text style={estilos.texto}>Tipo: Série</Text>
                     <Text style={estilos.texto}>Nota: {serie.vote_average.toFixed(1)}</Text>
                     <TouchableOpacity
-                      onPress={() => handleMaisInformacoes(serie)} // Chame a função com a mídia como argumento
+                      onPress={() => handleMaisInformacoes(serie)} // Chama a função com a mídia como argumento
                       style={estilos.botao}
                     >
                       <Text style={estilos.textoInfo}>Mais Informações</Text>
@@ -119,7 +119,7 @@ export default function MidiaPesquisada() {
                     <Text style={estilos.texto}>Tipo: Filme</Text>
                     <Text style={estilos.texto}>Nota: {filme.vote_average.toFixed(2)}</Text>
                     <TouchableOpacity
-                      onPress={() => handleMaisInformacoes(filme)} // Chame a função com a mídia como argumento
+                      onPress={() => handleMaisInformacoes(filme)} // Chama a função com a mídia como argumento
                       style={estilos.botao}
                     >
                       <Text style={estilos.textoInfo}>Mais Informações</Text>
