@@ -84,7 +84,7 @@ export default StyleSheet.create({
         display: 'flex',
         justifyContent: 'center',
         color: 'white',
-        fontSize: 10
+        fontSize: 9
     },
 
     imgPequena: {

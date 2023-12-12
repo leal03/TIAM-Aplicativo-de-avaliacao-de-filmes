@@ -33,6 +33,7 @@ export default function InfosMidia({ route }) {
         [nome, imagemBase64, userId],
         (_, result) => {
           console.log('Dados adicionados com sucesso!');
+          Alert.alert('Sucesso!', 'Mídia adicionada na sua lista de avaliados');
 
         },
         (error) => {

@@ -29,13 +29,13 @@ export default function MidiaPesquisada() {
     try {
       // Requisição para filmes
       const filmeResponse = await axios.get(
-        `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${query}`
+        `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&language=pt-BR-US&page=1&query=${query}`
       );
       const filmesData = filmeResponse.data.results;
 
       // Requisição para séries
       const serieResponse = await axios.get(
-        `https://api.themoviedb.org/3/search/tv?api_key=${API_KEY}&query=${query}`
+        `https://api.themoviedb.org/3/search/tv?api_key=${API_KEY}&language=pt-BR-US&page=1&query=${query}`
       );
       const seriesData = serieResponse.data.results;
 

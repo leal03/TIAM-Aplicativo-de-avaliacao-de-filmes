@@ -32,7 +32,7 @@ export default StyleSheet.create({
     TxTNome: {
         marginTop: 10,
         display: 'flex',
-        justifyContent: 'center',
+        marginLeft: '27%',
         color: 'white'
     },
     sinopse: {
@@ -56,9 +56,7 @@ export default StyleSheet.create({
     },
     containerBotao: {
         marginTop: 10,
-        display: 'flex',    
-        justifyContent: 'center',
-        alignItems: 'center',
+        display: 'flex',
         alignItems: 'flex-end'
     },
     botao: {
@@ -67,7 +65,6 @@ export default StyleSheet.create({
         height: 30,
         borderRadius: 40,
         display: 'flex',
-        alignItems: 'center',
         justifyContent: 'center',
         color: 'white'
     }

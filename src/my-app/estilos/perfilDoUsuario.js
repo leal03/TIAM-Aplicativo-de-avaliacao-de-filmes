@@ -33,7 +33,7 @@ export default StyleSheet.create({
     },
     TxT: {
         color: 'white',
-        fontSize: 12
+        fontSize: 10
     },
     main: {
         color: 'white',
